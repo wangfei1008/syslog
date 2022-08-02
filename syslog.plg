@@ -1,0 +1,61 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: syslog - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/syslog.res" /d "NDEBUG" /d "_AFXDLL" "D:\VCWork\program\log\20210806\syslog\syslog.rc"" 
+Creating temporary file "C:\DOCUME~1\feige\LOCALS~1\Temp\RSP238.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXEXT" /D "_WINDLL" /D "_AFXDLL" /FR"Release/" /Fp"Release/syslog.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\VCWork\program\log\20210806\syslog\queue.cpp"
+"D:\VCWork\program\log\20210806\syslog\syslog.cpp"
+"D:\VCWork\program\log\20210806\syslog\systemlog.cpp"
+"D:\VCWork\program\log\20210806\syslog\writelog.cpp"
+"D:\VCWork\program\log\20210806\syslog\Folder.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\feige\LOCALS~1\Temp\RSP238.tmp" 
+Creating temporary file "C:\DOCUME~1\feige\LOCALS~1\Temp\RSP239.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXEXT" /D "_WINDLL" /D "_AFXDLL" /FR"Release/" /Fp"Release/syslog.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\VCWork\program\log\20210806\syslog\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\feige\LOCALS~1\Temp\RSP239.tmp" 
+Creating temporary file "C:\DOCUME~1\feige\LOCALS~1\Temp\RSP23A.tmp" with contents
+[
+/nologo /subsystem:windows /dll /incremental:no /pdb:"Release/syslog.pdb" /machine:I386 /def:".\syslog.def" /out:"Release/syslog.dll" /implib:"Release/syslog.lib" 
+.\Release\queue.obj
+.\Release\StdAfx.obj
+.\Release\syslog.obj
+.\Release\systemlog.obj
+.\Release\writelog.obj
+.\Release\syslog.res
+.\Release\Folder.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\feige\LOCALS~1\Temp\RSP23A.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+queue.cpp
+syslog.cpp
+systemlog.cpp
+writelog.cpp
+Folder.cpp
+Generating Code...
+Linking...
+   Creating library Release/syslog.lib and object Release/syslog.exp
+Creating command line "bscmake.exe /nologo /o"Release/syslog.bsc"  .\Release\StdAfx.sbr .\Release\queue.sbr .\Release\syslog.sbr .\Release\systemlog.sbr .\Release\writelog.sbr .\Release\Folder.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+syslog.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

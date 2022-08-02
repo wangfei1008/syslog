@@ -1,0 +1,7 @@
+; syslog.def : Declares the module parameters for the DLL.
+
+LIBRARY      "syslog"
+DESCRIPTION  'syslog Windows Dynamic Link Library'
+
+EXPORTS
+    ; Explicit exports can go here
